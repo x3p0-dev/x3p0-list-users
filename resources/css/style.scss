@@ -1,0 +1,16 @@
+.wp-block-x3p0-list-users {
+        &.has-background {
+                padding: 2rem;
+        }
+
+	// Make sure themes aren't overwriting.
+	&__list {
+		font-weight: inherit;
+		font-style: inherit;
+		font-size: inherit;
+		line-height: inherit;
+		text-transform: inherit;
+		border: none;
+		background: none;
+	}
+}

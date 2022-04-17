@@ -1,0 +1,78 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "x3p0/list-users",
+	"version": "1.0.0-alpha",
+	"title": "X3P0 - List Users",
+	"category": "widgets",
+	"icon": "comments",
+	"description": "Displays a list of users.",
+	"attributes": {
+		"link": {
+			"type": "boolean",
+			"default": true
+		},
+		"number": {
+			"type": "integer",
+			"default": 10
+		},
+		"order": {
+			"type": "string",
+			"default": "asc"
+		},
+		"orderby": {
+			"type": "string",
+			"default": "name"
+		},
+		"textAlign": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"anchor": false,
+		"align": true,
+		"html": false,
+		"__experimentalBorder": {
+			"radius": true,
+			"color": true,
+			"width": true,
+			"style": true,
+			"__experimentalDefaultControls": {
+				"width": true,
+				"color": true
+			}
+		},
+		"color": {
+			"gradients": true,
+			"link": true,
+			"__experimentalDefaultControls": {
+				"background": true,
+				"text": true
+			}
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true,
+			"__experimentalDefaultControls": {
+				"padding": true
+			}
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontFamily": true,
+			"__experimentalTextTransform": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true,
+				"__experimentalFontFamily": true,
+				"__experimentalFontStyle": true,
+				"__experimentalFontWeight": true
+			}
+		}
+	},
+	"textdomain": "x3p0-list-users",
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css"
+}
