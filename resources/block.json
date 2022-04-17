@@ -23,9 +23,6 @@
 		"orderby": {
 			"type": "string",
 			"default": "name"
-		},
-		"textAlign": {
-			"type": "string"
 		}
 	},
 	"supports": {
