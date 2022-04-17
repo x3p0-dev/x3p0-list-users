@@ -1,8 +1,7 @@
 {
 	"name": "x3p0-list-users",
-	"version": "1.0.0-alpha",
-	"description": "Displays a comment parent link.",
-	"author": "greenshady",
+	"version": "1.0.0",
+	"author": "Justin Tadlock",
 	"homepage": "https://x3p0.com",
 	"main": "build/index.js",
 	"scripts": {

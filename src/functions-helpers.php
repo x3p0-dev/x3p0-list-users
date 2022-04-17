@@ -13,7 +13,7 @@ namespace X3P0\ListUsers;
 /**
  * Mini container.  This allows us to set up single instances of our objects
  * without using the singleton pattern and gives third-party devs easy access to
- * the objects if they need to unhook actions/filters added by the classes.
+ * the objects if they need to unhook actions/filters added by them.
  *
  * @since 1.0.0
  */

@@ -38,7 +38,7 @@ export default function Edit( {
 	},
 	setAttributes
 } ) {
-	// Get used based on the attributes.
+	// Get users based on the attributes.
 	const users = useSelect( ( select ) => {
 		const { getUsers } = select( store );
 
@@ -89,10 +89,10 @@ export default function Edit( {
 						orderby: value
 					} ) }
 					options={ [
-						{ value: "name",            label: __( 'Name', 'x3p0-list-users' ) },
-						{ value: "slug",            label: __( 'Slug', 'x3p0-list-users' ) },
-						{ value: "email",           label: __( 'Email', 'x3p0-list-users' ) },
-						{ value: "id",              label: __( 'ID', 'x3p0-list-users' ) },
+						{ value: "name",            label: __( 'Name',            'x3p0-list-users' ) },
+						{ value: "slug",            label: __( 'Slug',            'x3p0-list-users' ) },
+						{ value: "email",           label: __( 'Email',           'x3p0-list-users' ) },
+						{ value: "id",              label: __( 'ID',              'x3p0-list-users' ) },
 						{ value: "registered_date", label: __( 'Registered Date', 'x3p0-list-users' ) }
 					] }
 				/>
@@ -103,7 +103,7 @@ export default function Edit( {
 						setAttributes( { order: value } )
 					}
 					options={ [
-						{ value: "asc",  label: __( 'Ascending', 'x3p0-list-users' ) },
+						{ value: "asc",  label: __( 'Ascending',  'x3p0-list-users' ) },
 						{ value: "desc", label: __( 'Descending', 'x3p0-list-users' ) }
 					] }
 				/>
